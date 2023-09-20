@@ -3,8 +3,8 @@ public class ContohTipeData23{
         char golonganDarah = 'A';
         short jumblahPenduduk = 1025;
         float suhu = 60.50f;
-        double berat = 0.5476789012;
-        long saldo = 150000000;
+        double berat = 0.123456789;
+        long saldo = 15000000;
         int angkaDesimal = 0x10;
 
         System.out.println("Golongan darah\t: " + (byte)golonganDarah);
