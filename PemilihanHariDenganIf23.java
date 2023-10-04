@@ -11,7 +11,7 @@ public class PemilihanHariDenganIf23 {
 
         if (angka >=1 && angka <=5 ) {
             hasil = "weekday";
-            System.out.println(angka + " adalah " + hasil );
+            System.out.println(angka + " adalah 1" + hasil );
 
         }  else if (angka == 6 || angka == 7 ) {
             hasil = "weekend";
