@@ -13,7 +13,7 @@ public class Gaji23 {
         System.out.println("Masukkan penghasilan");
         penghasilan = sc.nextInt();
 
-        if (kategori.equalsIgnoreCase("pekerja")) {
+        if (kategori.equals("pekerja")) {
             if (penghasilan <= 2000000)
                 pajak = 0.1;
         else if (penghasilan <= 3000000)
@@ -22,7 +22,7 @@ public class Gaji23 {
                 pajak = 0.2;
             gajiBersih = (int) (penghasilan - (pajak * penghasilan));
             System.out.println("Penghasil Bersih : " + gajiBersih);
-        } else if (kategori.equalsIgnoreCase("pebisnis")) {
+        } else if (kategori.equals("pebisnis")) {
             if (penghasilan <= 2500000)
                 pajak = 0.15;
             else if (penghasilan <= 3500000)
