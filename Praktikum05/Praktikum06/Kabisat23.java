@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class KabisatNestedke2abs23 {
+public class Kabisat23 {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 
@@ -14,3 +14,4 @@ public class KabisatNestedke2abs23 {
     }
     
 }
+
