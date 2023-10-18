@@ -19,6 +19,7 @@ public class ForKelipatan23 {
             }
         }
         double average = (double) total / counter;
+        System.out.println("Rata-rata: " + average);
         System.out.printf("Pada rentang 1-50 terdapat%d bilangan kelipatan %d dengan total %d", counter, bilangan, total);
 
     }
