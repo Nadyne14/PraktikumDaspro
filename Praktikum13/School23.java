@@ -51,13 +51,12 @@ public class School23 {
     }
 
     public static void display(String[] student) {
-    System.out.printf("=========================%n");
+    System.out.printf("+++++++++++++++++++++++++%n");
         System.out.printf("| %-3s | %-15s |%n", "NO", "NAME");
-        System.out.printf("=========================%n");
-
+        System.out.printf("+++++++++++++++++++++++++%n");
         for (int i = 0; i < student.length; i++) {
             System.out.printf("| %-3d | %-15s |%n", (i+1), student[i]);
         }
-        System.out.printf("=========================%n");
+        System.out.printf("+++++++++++++++++++++++++%n");
     }
 }
